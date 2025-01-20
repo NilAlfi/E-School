@@ -140,7 +140,10 @@ color: #01ACFD;
 /* mobile device responsive start  */
 
 @media screen and (max-width: 576px) {
-   
+    .headersection {
+        
+        padding-bottom: 20px;
+    }
     .ulitem {
         display: none;
     }
@@ -165,6 +168,37 @@ color: #01ACFD;
         justify-content: space-between;
         padding: 20px;
     }
+
+    /* main section code start here  */
+    .main-container {
+        flex-direction: column-reverse;
+    }
+    .banner-img {
+        width: 300px;
+    }
+    .empowweing h1 {
+        font-size: 32px;
+        text-align: center;
+        padding: 0 40px;
+        margin-top: 20px;
+    }
+    .empowweing p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 30px;
+        margin-bottom: 20px;
+        line-height: 1.5rem;
+    }
+    .btn{
+        text-align: center;
+    }
+    .btn button {
+        width: 151px;
+        height: 43px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
 }
 /* Medium Device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
