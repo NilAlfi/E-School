@@ -476,6 +476,12 @@ margin-bottom: 20px;
     border: none;
 }
 
+marquee p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #01ACFD;
+}
 /* mobile device responsive start  */
 
 @media screen and (max-width: 576px) {
