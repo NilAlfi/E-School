@@ -472,6 +472,10 @@ margin-bottom: 20px;
 }
 .keep i{margin: 0 10px;font-size: 20px;}
 
+.linemobile {
+    border: none;
+}
+
 /* mobile device responsive start  */
 
 @media screen and (max-width: 576px) {
@@ -618,6 +622,9 @@ margin-bottom: 20px;
     .kidsec p {
         
         margin-bottom: 30px;
+    }
+    .linemobile {
+        border: 1px solid #FEA301;
     }
     
 
